@@ -1,12 +1,20 @@
 package com.java.basics;
+import java.util.Scanner;
 
 public class Main{
     public static void main( String[] args) {
+        Scanner sc = new Scanner(System.in);
+        NumberCheck numberCheck = new NumberCheck();
+        System.out.println("Enter any number: ");
+        int input = sc.nextInt();
+        System.out.println(numberCheck.numberSignCheck(input));
+
         CharacterU charU = new CharacterU();
         PrefixPostfix prefixpostfix = new PrefixPostfix();
-        NumberCheck numberCheck = new NumberCheck();
+
         //charU.printCharacters();
         //prefixpostfix.demonstratePrefixPostfix();
-        System.out.println(numberCheck.numberSignCheck());
+
+        sc.close();
     }
 }
