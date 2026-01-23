@@ -1,19 +1,10 @@
-package com.java.basics;
+package com.java.basics.opcode;
+
 import java.util.Scanner;
 
-public class Main{
+public class SwitchOpCodeMain {
     public static void main( String[] args) {
         Scanner sc = new Scanner(System.in);
-//        NumberCheck numberCheck = new NumberCheck();
-//        System.out.println("Enter any number: ");
-//        int input = sc.nextInt();
-//        System.out.println(numberCheck.numberSignCheck(input));
-//
-//        CharacterU charU = new CharacterU();
-//        PrefixPostfix prefixpostfix = new PrefixPostfix();
-
-//        charU.printCharacters();
-//        prefixpostfix.demonstratePrefixPostfix();
         System.out.print("Enter the first number: ");
         double firstNumber = sc.nextDouble();
         System.out.print("Enter the second number: ");

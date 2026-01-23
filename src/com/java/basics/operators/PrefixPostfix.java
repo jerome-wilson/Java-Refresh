@@ -1,4 +1,4 @@
-package com.java.basics;
+package com.java.basics.operators;
 
 public class PrefixPostfix {
     public void demonstratePrefixPostfix() {

@@ -1,4 +1,4 @@
-package com.java.basics;
+package com.java.basics.unicode;
 
 public class CharacterU {
     char regularU = 'U';

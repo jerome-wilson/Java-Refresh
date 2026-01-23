@@ -1,4 +1,4 @@
-package com.java.basics;
+package com.java.basics.opcode;
 
 public class SwitchOpCode {
     public void opCodeOperations(char opCode, double firstnumber, double secondnumber) {

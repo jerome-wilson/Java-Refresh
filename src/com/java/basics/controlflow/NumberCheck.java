@@ -1,4 +1,4 @@
-package com.java.basics;
+package com.java.basics.controlflow;
 
 public class NumberCheck {
     public String numberSignCheck(int a) {
