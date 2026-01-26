@@ -1,4 +1,5 @@
-package com.java.basics.loops;
+package com.java.basics.loops.patterns;
+
 import java.util.Scanner;
 
 public class IncrementalNumberPatternMain {

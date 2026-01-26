@@ -1,4 +1,4 @@
-package com.java.basics.loops;
+package com.java.basics.loops.enduranceloops;
 
 public class EnduranceLoops {
     public void selectiveNumberPrinting(int n){

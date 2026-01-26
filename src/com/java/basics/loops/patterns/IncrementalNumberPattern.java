@@ -1,4 +1,4 @@
-package com.java.basics.loops;
+package com.java.basics.loops.patterns;
 
 public class IncrementalNumberPattern {
     public void numberPattern(int limit) {
