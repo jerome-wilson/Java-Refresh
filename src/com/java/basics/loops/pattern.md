@@ -116,5 +116,3 @@ Character patterns
 Half / full pyramids
 Inverted patterns
 With zero memorization.
-When you’re ready, write the next pattern program.
-I’ll review it using this same rulebook — like a real mentor would.
