@@ -116,3 +116,6 @@ Character patterns
 Half / full pyramids
 Inverted patterns
 With zero memorization.
+
+NOTE: If a value changes per row, compute it inside the row loop.
+If it’s global, compute it outside.
