@@ -8,5 +8,6 @@ public class NumberCheckMain {
         System.out.println("Enter any number: ");
         int input = sc.nextInt();
         System.out.println(numberCheck.numberSignCheck(input));
+        sc.close();
     }
 }
