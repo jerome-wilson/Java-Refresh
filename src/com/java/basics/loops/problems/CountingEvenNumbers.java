@@ -10,6 +10,6 @@ public class CountingEvenNumbers {
             }
         }
         System.out.println();
-        System.out.printf("Total number of even numberd between 1 and %d is %d", limit, count);
+        System.out.printf("Total number of even numbers between 1 and %d is %d", limit, count);
     }
 }
