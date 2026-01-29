@@ -14,7 +14,7 @@ public class ElementGreaterThanMain {
             System.out.print("Enter the element you want to compare with: ");
             int pivotNumber = scanner.nextInt();
             ElementGreaterThan elementGreaterThanX = new ElementGreaterThan();
-            elementGreaterThanX.checkingElementisGreaterThan(array, pivotNumber);
+            elementGreaterThanX.countElementsGreaterThan(array, pivotNumber);
         }
     }
 }

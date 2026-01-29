@@ -1,7 +1,7 @@
 package com.java.basics.arrays;
 
 public class ElementGreaterThan {
-    public void checkingElementisGreaterThan(int[] array, int number) {
+    public void countElementsGreaterThan(int[] array, int number) {
         int count = 0;
         for(int idx = 0; idx < array.length; idx++) {
             if(array[idx] > number) {
@@ -10,6 +10,6 @@ public class ElementGreaterThan {
             }
         }
         System.out.println();
-        System.out.printf("The number of elements grater than %d is %d", number, count);
+        System.out.printf("The number of elements greater than %d is %d", number, count);
     }
 }
