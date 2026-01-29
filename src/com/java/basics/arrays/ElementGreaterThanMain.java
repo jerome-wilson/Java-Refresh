@@ -7,6 +7,7 @@ public class ElementGreaterThanMain {
             System.out.print("Enter the number of elements in the array: ");
             int numberOfElements = scanner.nextInt();
             int array[] = new int[numberOfElements];
+            System.out.print("Enter the elements: ");
             for (int index = 0; index < numberOfElements; index++) {
                 array[index] = scanner.nextInt();
             }

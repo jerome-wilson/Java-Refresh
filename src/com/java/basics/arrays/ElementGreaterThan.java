@@ -9,6 +9,7 @@ public class ElementGreaterThan {
                 System.out.print(array[idx]+" ");
             }
         }
+        System.out.println();
         System.out.printf("The number of elements grater than %d is %d", number, count);
     }
 }
