@@ -9,8 +9,8 @@ public class NumberOfStepsToZeroBitWiseMain {
         System.out.print("Enter a number: ");
         int num = scanner.nextInt();
 
-        NumberOfStepsToZero solver = new NumberOfStepsToZero();
-        int result = solver.numberOfSteps(num);
+        NumberOfStepsToZeroBitWise solver = new NumberOfStepsToZeroBitWise();
+        int result = solver.numberOfStepsBitWise(num);
 
         System.out.println("Number of steps to reduce " + num + " to zero: " + result);
 
