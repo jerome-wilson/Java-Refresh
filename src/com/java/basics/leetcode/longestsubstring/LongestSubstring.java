@@ -18,3 +18,6 @@ public class LongestSubstring {
         return maxLength;
     }
 }
+
+//Time complexity - O(n)
+//Space complexity - O(n)
