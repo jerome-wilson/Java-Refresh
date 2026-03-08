@@ -15,7 +15,7 @@ public class MatrixAdd {
         }
     
     }
-
+// adding all elements in an array
     int add(int[][] array){
         int sum = 0;
         for (int i = 0; i < array.length; i++) {
@@ -25,7 +25,7 @@ public class MatrixAdd {
         }
         return sum;
     }
-
+// finding sum of each row in a 2D array
     int[] rowSum(int[][] array) {
         int[] sums = new int[array.length];
         for (int i = 0; i < array.length; i++) {
