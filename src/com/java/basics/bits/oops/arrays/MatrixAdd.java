@@ -15,7 +15,7 @@ public class MatrixAdd {
         }
     
     }
-// adding all elements in an array
+// summing all elements in an array
     int add(int[][] array){
         int sum = 0;
         for (int i = 0; i < array.length; i++) {
