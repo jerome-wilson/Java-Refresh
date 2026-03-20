@@ -8,7 +8,7 @@ public class PerfectSquareBS {
             if((long)mid*mid < num) {
                 low = mid + 1;
             } else if((long)mid*mid > num) {
-                high = mid - 1;
+                low = mid - 1;
             } else {
                 return true;
             }
