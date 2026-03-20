@@ -3,3 +3,7 @@
 /workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+Developer.class
+Employee.class
+Intern.class
+Manager.class
