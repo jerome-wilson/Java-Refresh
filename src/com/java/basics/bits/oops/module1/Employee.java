@@ -1,6 +1,6 @@
 package com.java.basics.bits.oops.module1;
 
-public class Employee {
+public abstract class Employee {
     protected String name;
     protected double baseSalary;
 
@@ -8,16 +8,14 @@ public class Employee {
         this.baseSalary = baseSalary;
     }
 
-    public double calculateSalary() {
-        return baseSalary;
-    }
+    public abstract double calculateSalary();
 
     public static void main(String[] args) {
-        Employee e1 = new Employee(98600.17);
         Employee e2 = new Manager(254000.77);
-        Employee e3 = new Developer(162562.22);
+        Employee e3 = new Developer(162562.22, 5);
         Employee e4 = new Intern(98600.17);
 
+        Employee[] employees = {e2, e3, e4};
         for (Employee e: employees) {
             System.out.println(e.calculateSalary());
         }
