@@ -11,13 +11,19 @@ public abstract class Employee {
     public abstract double calculateSalary();
 
     public static void main(String[] args) {
-        Employee e2 = new Manager(254000.77);
-        Employee e3 = new Developer(162562.22, 5);
-        Employee e4 = new Intern(98600.17);
+        Employee manager = new Manager(254000.77);
+        Employee developer = new Developer(162562.22, 5);
+        Employee intern = new Intern(98600.17);
 
-        Employee[] employees = {e2, e3, e4};
-        for (Employee e: employees) {
-            System.out.println(e.calculateSalary());
+        Employee[] employees = {manager, developer, intern};
+        
+        System.out.println("=== Employee Salary Report ===\n");
+        
+        for (Employee e : employees) {
+            System.out.println("Employee Type: " + e.getClass().getSimpleName());
+            System.out.println("Base Salary: $" + e.baseSalary);
+            System.out.println("Calculated Salary: $" + e.calculateSalary());
+            System.out.println("-----------------------------");
         }
     }
 }
