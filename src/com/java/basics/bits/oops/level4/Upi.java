@@ -1,7 +1,5 @@
 package com.java.basics.bits.oops.level4;
 
-import java.util.Scanner;
-
 public class Upi extends Payment {
     
     public Upi(String user, int amount) {
@@ -9,7 +7,6 @@ public class Upi extends Payment {
     }
 
     public void processPayment() {
-        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your UPI id: ");
         String upiId = scanner.next();
         System.out.println("Enter the amount to pay: ");
@@ -31,7 +28,6 @@ public class Upi extends Payment {
             System.out.println("Invalid UPI ID entered. UPI ID must contain '@upi'");
             paymentSuccessful = false;
         }
-        // Note: Not closing scanner as it wraps System.in
     }
 
     public boolean paymentStatus() {

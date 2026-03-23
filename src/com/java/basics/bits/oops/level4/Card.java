@@ -1,7 +1,5 @@
 package com.java.basics.bits.oops.level4;
 
-import java.util.Scanner;
-
 public class Card extends Payment {
 
     public Card(String user, int amount) {
@@ -9,7 +7,6 @@ public class Card extends Payment {
     }
 
     public void processPayment() {
-        Scanner scanner = new Scanner(System.in);
         boolean isValid = true;
         
         System.out.println("Enter the amount to pay: ");

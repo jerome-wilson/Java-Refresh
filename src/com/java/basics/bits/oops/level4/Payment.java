@@ -1,6 +1,10 @@
 package com.java.basics.bits.oops.level4;
 
+import java.util.Scanner;
+
 public abstract class Payment {
+    protected static final Scanner scanner = new Scanner(System.in);
+    
     public abstract void processPayment();
     public abstract boolean paymentStatus();
     protected int amount;
