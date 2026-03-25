@@ -44,6 +44,7 @@ public class IntermediateArrayOperations {
             System.out.print(finalArray[i]+" ");
         }
         // finalArray = new int[10]; throws error
+        sc.close(); //closed Scanner to prevent resource leak
     }
 }
 
