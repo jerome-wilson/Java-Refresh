@@ -19,7 +19,9 @@ public class IntermediateArrayOperations {
         for (int i = 0; i < numberOfElements; i++) {
             System.out.print(b[i]+" ");
         }
-        b[2] = 99;
+        if(b.length > 2) {
+            b[2] = 99;
+        }
         System.out.print("\nOriginal array a after modifying b: ");
             for (int i = 0; i < numberOfElements; i++) {
             System.out.print(a[i] + " ");
