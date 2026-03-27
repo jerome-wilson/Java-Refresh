@@ -44,7 +44,7 @@ public class Searching {
             } else if(target > array[mid]) {
                 low = mid + 1;
             } else {
-                return "target found at " + mid+1 + " position";
+                return "target found at " + (mid+1) + " position";
             }
         }
         return "element not found";

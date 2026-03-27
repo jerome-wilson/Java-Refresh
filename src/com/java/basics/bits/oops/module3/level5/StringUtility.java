@@ -9,7 +9,7 @@ public class StringUtility {
         String value = scanner.nextLine();
             System.out.println("Trimming");
             String value1 = value.trim();
-            System.out.println("The value enterd without spaces: "+value1);
+            System.out.println("The value entered without spaces: "+value1);
 
             System.out.println("\nReplacing space with '-'");
             String value2 = value.replace(" ", "-");
