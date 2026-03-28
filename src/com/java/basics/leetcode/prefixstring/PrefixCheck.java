@@ -10,7 +10,7 @@ public class PrefixCheck {
             while (!strs[i].startsWith(prefix)) {
                 prefix = prefix.substring(0, prefix.length() - 1);
 
-                if (prefix == null) {
+                if (prefix.isEmpty()) {
                     return "";
                 }
             }
