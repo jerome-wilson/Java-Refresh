@@ -1,11 +1,6 @@
 package com.java.basics.bits.oops.lab.q3;
 import java.lang.Math;
 
-/*
-question 3:
-Define a class, define instance methods for retrieving the values of instance variables.
-Also write functions to process the values of instance variables.
-*/
 public class Area {
     private double height = 20;
     private double length = 40;
