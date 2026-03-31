@@ -1,4 +1,9 @@
 package com.java.basics.bits.oops.lab.q1;
+/*
+question 1: 
+Define a class, describe its constructor and instantiate its objects.
+Also implement constructor overloading in the class.
+*/
 
 public class Weather {
     private float temperature;
