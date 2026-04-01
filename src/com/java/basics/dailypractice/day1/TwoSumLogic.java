@@ -1,6 +1,7 @@
 package com.java.basics.dailypractice.day1;
 
 import java.util.HashMap;
+//problem 1 - easy
 
 public class TwoSumLogic {
 
