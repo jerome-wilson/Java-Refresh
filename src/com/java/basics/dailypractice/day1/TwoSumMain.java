@@ -1,5 +1,5 @@
 package com.java.basics.dailypractice.day1;
-
+//problem 1 - easy
 public class TwoSumMain {
 
     public static void main(String[] args) {
