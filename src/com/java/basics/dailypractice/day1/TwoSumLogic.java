@@ -1,7 +1,7 @@
 package com.java.basics.dailypractice.day1;
 
 import java.util.HashMap;
-//problem 1 - easy
+//LeetCode #1, Difficulty: Easy
 
 public class TwoSumLogic {
 

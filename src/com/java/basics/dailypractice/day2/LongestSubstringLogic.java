@@ -1,7 +1,7 @@
 package com.java.basics.dailypractice.day2;
 
 import java.util.HashSet;
-
+//LeetCode #3, Difficulty: Medium
 public class LongestSubstringLogic {
 
     public static int lengthOfLongestSubstring(String s) {
