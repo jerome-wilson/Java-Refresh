@@ -1,6 +1,7 @@
 package com.java.basics.dailypractice.day3;
 
 import java.util.Stack;
+//LeetCode #20, Difficulty: Easy
 
 public class ValidParenthesesLogic {
 
