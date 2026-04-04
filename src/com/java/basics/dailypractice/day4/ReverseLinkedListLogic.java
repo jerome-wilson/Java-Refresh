@@ -1,5 +1,5 @@
 package com.java.basics.dailypractice.day4;
-
+//LeetCode #206, Difficulty: Easy
 public class ReverseLinkedListLogic {
 
     // Definition for singly-linked list
