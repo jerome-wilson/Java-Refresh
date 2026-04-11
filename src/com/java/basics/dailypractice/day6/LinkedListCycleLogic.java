@@ -1,6 +1,7 @@
 package com.java.basics.dailypractice.day6;
 
 public class LinkedListCycleLogic {
+    //LeetCode #141, Difficulty: Easy
 
     // Definition for singly-linked list
     static class ListNode {
