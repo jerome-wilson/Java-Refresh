@@ -1,7 +1,7 @@
 package com.java.basics.dailypractice.day8;
 
 public class BinarySearchLogic {
-
+// LeetCode #704, Difficulty: Easy
     public static int search(int[] nums, int target) {
 
         int left = 0;
