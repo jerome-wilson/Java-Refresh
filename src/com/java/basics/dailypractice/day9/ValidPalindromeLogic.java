@@ -1,6 +1,6 @@
 package com.java.basics.dailypractice.day9;
 public class ValidPalindromeLogic {
-
+// LeetCode #125, Difficulty: Easy
     public boolean isPalindrome(String s) {
         int left = 0;
         int right = s.length() - 1;
