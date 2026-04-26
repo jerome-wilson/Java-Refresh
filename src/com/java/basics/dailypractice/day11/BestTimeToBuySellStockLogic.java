@@ -1,7 +1,7 @@
 package com.java.basics.dailypractice.day11;
 
 public class BestTimeToBuySellStockLogic {
-
+// LeetCode #121, Difficulty: Easy
     public int maxProfit(int[] prices) {
 
         int minPrice = Integer.MAX_VALUE;
