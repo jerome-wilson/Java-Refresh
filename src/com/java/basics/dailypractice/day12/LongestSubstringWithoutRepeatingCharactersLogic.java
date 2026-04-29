@@ -19,6 +19,7 @@ public class LongestSubstringWithoutRepeatingCharactersLogic {
             }
 //1. stage 1
 //2. stage 2
+
             set.add(s.charAt(right));
             maxLength = Math.max(maxLength, right - left + 1);
         }
