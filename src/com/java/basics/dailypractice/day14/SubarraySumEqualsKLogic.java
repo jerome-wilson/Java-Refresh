@@ -3,7 +3,7 @@ package com.java.basics.dailypractice.day14;
 import java.util.HashMap;
 
 public class SubarraySumEqualsKLogic {
-
+// LeetCode #560, Difficulty: Medium
     public int subarraySum(int[] nums, int k) {
 
         HashMap<Integer, Integer> map = new HashMap<>();
