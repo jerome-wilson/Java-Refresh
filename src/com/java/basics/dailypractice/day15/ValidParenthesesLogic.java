@@ -3,7 +3,7 @@ package com.java.basics.dailypractice.day15;
 import java.util.Stack;
 
 public class ValidParenthesesLogic {
-
+// LeetCode #20, Difficulty: Easy
     public boolean isValid(String s) {
 
         Stack<Character> stack = new Stack<>();
