@@ -12,7 +12,7 @@ class TreeNode {
 }
 
 public class MaximumDepthBinaryTreeLogic {
-
+// LeetCode #104, Difficulty: Easy
     public int maxDepth(TreeNode root) {
 
         if (root == null) {
