@@ -11,7 +11,7 @@ class TreeNode {
 }
 
 public class ValidateBinarySearchTreeLogic {
-
+// LeetCode #98, Difficulty: Medium
     public boolean isValidBST(TreeNode root) {
         return validate(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
