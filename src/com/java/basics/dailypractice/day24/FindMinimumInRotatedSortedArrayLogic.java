@@ -1,6 +1,7 @@
 package com.java.basics.dailypractice.day24;
 
 public class FindMinimumInRotatedSortedArrayLogic {
+// LeetCode #153, Difficulty: Medium
 
     public int findMin(int[] nums) {
 
