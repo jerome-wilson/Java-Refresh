@@ -1,6 +1,7 @@
 package com.java.basics.dailypractice.day31;
 
 public class UniquePathsLogic {
+// LeetCode #62, Difficulty: Medium
 
     public int uniquePaths(int m, int n) {
 
