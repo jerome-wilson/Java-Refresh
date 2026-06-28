@@ -1,6 +1,7 @@
 package com.java.basics.dailypractice.day38;
 
 public class NumberOfIslandsLogic {
+// LeetCode #200, Difficulty: Medium
 
     public int numIslands(char[][] grid) {
 
