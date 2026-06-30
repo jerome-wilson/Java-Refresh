@@ -10,6 +10,7 @@ class ListNode {
 }
 
 public class RemoveNthNodeFromEndLogic {
+// LeetCode #19, Difficulty: Medium
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
 
