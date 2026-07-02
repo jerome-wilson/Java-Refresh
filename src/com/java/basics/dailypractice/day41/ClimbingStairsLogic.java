@@ -1,6 +1,7 @@
 package com.java.basics.dailypractice.day41;
 
 public class ClimbingStairsLogic {
+// LeetCode #70, Difficulty: Easy
 
     public int climbStairs(int n) {
 
