@@ -1,6 +1,7 @@
 package com.java.basics.dailypractice.day48;
 
 public class HouseRobberLogic {
+// LeetCode #198, Difficulty: Medium
 
     public int rob(int[] nums) {
 
