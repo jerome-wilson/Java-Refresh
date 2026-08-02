@@ -1,6 +1,7 @@
 package com.java.basics.dailypractice.day57;
 
 public class JumpGameLogic {
+// LeetCode #55, Difficulty: Medium
 
     public boolean canJump(int[] nums) {
 
