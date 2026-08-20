@@ -4,6 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class LongestConsecutiveSequenceLogic {
+// LeetCode #128, Difficulty: Medium
 
     public int longestConsecutive(int[] nums) {
 
