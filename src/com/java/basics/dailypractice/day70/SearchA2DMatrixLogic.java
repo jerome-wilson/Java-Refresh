@@ -1,6 +1,7 @@
 package com.java.basics.dailypractice.day70;
 
 public class SearchA2DMatrixLogic {
+// LeetCode #74, Difficulty: Medium
 
     public boolean searchMatrix(int[][] matrix, int target) {
 
