@@ -1,6 +1,7 @@
 package com.java.basics.dailypractice.day71;
 
 public class MaximumProductSubarrayLogic {
+// LeetCode #152, Difficulty: Medium
 
     public int maxProduct(int[] nums) {
 
