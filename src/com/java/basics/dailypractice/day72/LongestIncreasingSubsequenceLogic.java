@@ -3,6 +3,7 @@ package com.java.basics.dailypractice.day72;
 import java.util.Arrays;
 
 public class LongestIncreasingSubsequenceLogic {
+// LeetCode #300, Difficulty: Medium
 
     public int lengthOfLIS(int[] nums) {
 
