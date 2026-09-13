@@ -10,6 +10,7 @@ class ListNode {
 }
 
 public class PalindromeLinkedListLogic {
+// LeetCode #234, Difficulty: Easy
 
     public boolean isPalindrome(ListNode head) {
 
