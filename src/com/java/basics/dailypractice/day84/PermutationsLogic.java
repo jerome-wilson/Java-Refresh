@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PermutationsLogic {
+// LeetCode #46, Difficulty: Medium
 
     public List<List<Integer>> permute(int[] nums) {
 
