@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 public class GroupAnagramsLogic {
+// LeetCode #49, Difficulty: Medium
 
     public List<List<String>> groupAnagrams(String[] strs) {
 
