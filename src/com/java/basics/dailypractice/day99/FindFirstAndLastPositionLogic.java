@@ -1,6 +1,7 @@
 package com.java.basics.dailypractice.day99;
 
 public class FindFirstAndLastPositionLogic {
+// LeetCode #34, Difficulty: Medium
 
     public int[] searchRange(int[] nums, int target) {
 
