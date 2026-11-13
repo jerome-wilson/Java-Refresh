@@ -13,7 +13,7 @@ class TreeNode {
     }
 }
 
-public class ConstructBinaryTreeFromPreorderInorderLogic {
+class ConstructBinaryTreeFromPreorderInorderLogic {
 // LeetCode #105, Difficulty: Medium
 
     private Map<Integer, Integer> inorderMap;

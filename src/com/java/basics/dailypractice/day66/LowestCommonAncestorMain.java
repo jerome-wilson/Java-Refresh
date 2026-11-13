@@ -1,6 +1,6 @@
 package com.java.basics.dailypractice.day66;
 
-public class LowestCommonAncestorBinaryTreeMain {
+class LowestCommonAncestorBinaryTreeMain {
 
     public static void main(String[] args) {
 
