@@ -1,6 +1,6 @@
 package com.java.basics.dailypractice.day65;
 
-public class ConstructBinaryTreeFromPreorderInorderMain {
+class ConstructBinaryTreeFromPreorderInorderMain {
 
     public static void main(String[] args) {
 
